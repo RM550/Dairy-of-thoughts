@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Diary App</h1>
+        <div id="signInContainer">
+            <input type="text" id="username" placeholder="Enter your name" />
+            <button id="signInButton">Sign In</button>
+        </div>
+        <div id="diaryContainer" style="display:none;">
+            <h2>Welcome, <span id="userNameDisplay"></span>!</h2>
+            <textarea id="diaryEntry" placeholder="Write your thoughts here..."></textarea>
+            <button id="saveButton">Save Entry</button>
+            <h2>Your Entries:</h2>
+            <ul id="entriesList"></ul>
+        </div>
+    </div>
+    <!-- Sign Out Button placed outside the main container -->
+    <div class="signOutContainer">
+        <button id="signOutButton">Sign Out</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
