@@ -13,7 +13,7 @@ The **Dairy App** is a simple and elegant application to help you record and ref
 ## 🌐 Live Demo
 Check out the live demo of the Dairy App to see it in action:
 
-[Live Demo](https://your-live-demo-link.com) 🚀
+[Live Demo]( https://rm550.github.io/Dairy-of-thoughts/) 🚀
 
 ## 📥 Installation
 Follow these steps to get started:
